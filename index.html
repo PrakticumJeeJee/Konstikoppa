@@ -1,0 +1,49 @@
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type = "text/javascript">  
+  function togglePopup(id){
+    document.getElementById(id).classList.toggle("active");
+
+
+
+  } 
+    </script>  
+</head>
+
+<body>
+
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+
+      <div class="close-btn" onclick="togglePopup('popup-1')">&times;</div>
+      <h1>Dörr</h1>
+      <p>Här är en dörr</p>
+
+    </div>
+    <button class="button1" onclick="togglePopup('popup-1')"></button>
+  </div>
+  <i class="bi bi-question-circle"></i>
+
+
+  <div class="popup" id="popup-2">
+    <div class="overlay"></div>
+    <div class="content">
+
+      <div class="close-btn" onclick="togglePopup('popup-2')">&times;</div>
+      <h1>Title 2</h1>
+      <p>Text 2</p>
+
+    </div>
+    <button class="button2" onclick="togglePopup('popup-2')"></button>
+
+  </div>
+
+
+
+
+</body>
+  </html>
