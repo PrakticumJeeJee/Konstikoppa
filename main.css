@@ -23,14 +23,16 @@ body {
     left:50%;
     transform:translate(-50%,-50%) scale(0);
     background:#fff;
-    width:500px;
-    height:250px;
+    width:800px;
+    height:600px;
     z-index:2;
     text-align:center;
     padding:20px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
   }
+
+
   
   .popup .close-btn {
     cursor:pointer;
@@ -111,6 +113,36 @@ body {
     animation: pulse1 1.2s ease-in-out infinite;
   }
 
+  #myimage {
+    float:right;
+    display: block;
+
+    box-sizing: border-box;
+    background: url(testbild.png) no-repeat;
+    width: 280px; /* Width of new image */
+    height: 236px; /* Height of new image */
+    /* padding-left: 180px; /* Equal to width of new image */
+  }
+
+  #HeaderBrinno {
+    color: rgb(24, 38, 192);
+    /* padding-left: 180px; /* Equal to width of new image */
+  
+
+
+    
+  }
+
+
+  .brinno {
+    color: rgb(0, 0, 0);
+    inline-size: 450px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+
+  
 
   .house {
     position: relative;
